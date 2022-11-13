@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        //Task 1
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
@@ -7,6 +8,7 @@ public class Main {
         System.out.println("cat = "+cat);
         System.out.println("paper = "+paper);
 
+        //Task 2
         dog += 4;
         cat += 4;
         paper += 4;
@@ -14,6 +16,7 @@ public class Main {
         System.out.println("cat = "+cat);
         System.out.println("paper = "+paper);
 
+        //Task 3
         dog -= 3.5;
         cat -= 1.6;
         paper -= 7639;
@@ -21,6 +24,7 @@ public class Main {
         System.out.println("cat = "+cat);
         System.out.println("paper = "+paper);
 
+        //Task 4
         var friend = 19.0;
         System.out.println("friend = " +friend);
         friend *= 2;
@@ -28,6 +32,7 @@ public class Main {
         friend /= 7;
         System.out.println("friend = " +friend);
 
+        //Task 5
         var frog = 3.5;
         System.out.println("frog = " +frog);
         frog *= 10;
@@ -37,12 +42,19 @@ public class Main {
         frog += 4;
         System.out.println("frog = " +frog);
 
+        //Task 6
         var WeightFirstBoxer = 78.2;
         var WeightSecondBoxer = 82.7;
         var TotalWeigtBoxer = WeightFirstBoxer + WeightSecondBoxer;
         var WeightDifferenceBoxer = TotalWeigtBoxer % WeightFirstBoxer;
         System.out.println("Общий вес двух бойцов " +TotalWeigtBoxer +" кг");
         System.out.println("Разница между весами бойцов " +WeightDifferenceBoxer +" кг");
+
+        //Task 7
+        var WeightDifferenceBoxer1 = WeightSecondBoxer - WeightFirstBoxer;
+        System.out.println("Разница между весами бойцов " +WeightDifferenceBoxer1 +" кг");
+        var WeightDifferenceBoxer2 = WeightSecondBoxer % WeightFirstBoxer;
+        System.out.println("Разница между весами бойцов " +WeightDifferenceBoxer2 +" кг");
 
 
     }
