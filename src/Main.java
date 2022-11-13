@@ -72,7 +72,7 @@ public class Main {
         var WorkersMore = 94;
         var TotalWorkersNew = TotalWorkers + WorkersMore;
         var AllWorkingHoursNew = TotalWorkersNew * WorkingHours;
-        System.out.println("Если в компании работает " +TotalWorkersNew +" человек, то всего " +AllWorkingHoursNew +" часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " +TotalWorkersNew +" человека, то всего " +AllWorkingHoursNew +" часа работы может быть поделено между сотрудниками");
 
     }
 }
